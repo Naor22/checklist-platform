@@ -2,7 +2,7 @@
   "name": "homebridge-checklist-plugin",
   "version": "1.0.0",
   "description": "A Homebridge plugin for creating and managing a checklist to ensure users don't forget items when leaving home.",
-  "main": "dist/dynamic-platform.js",
+  "main": "dist/checklist-platform.js",
   "scripts": {
     "clean": "rimraf ./dist",
     "build": "rimraf ./dist && tsc",
